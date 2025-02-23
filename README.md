@@ -38,17 +38,21 @@ This project implements **image steganography** using Python, allowing users to 
 ## Screenshots
 Here are some screenshots of the application in action:
 
-### Image Selection
-![Image Selection](Screenshot-1.png)
+### Image CODE
+![Screenshot 2025-02-23 113546_Screenshot 2025-02-23 113555_Screenshot 2025-02-23 113603_Screenshot 2025-02-23 113613](https://github.com/user-attachments/assets/c610674d-ac9a-4441-a907-d423484a6da3)
+
 
 ### Message Encryption
-![Message Encryption](Screenshot-2.png)
+![Screenshot 2025-02-23 113956](https://github.com/user-attachments/assets/76a83bba-a336-4d30-988b-5ee8b53818d3)
+
 
 ### Encrypted Image
-![Encrypted Image](Screenshot-3.png)
+![Screenshot 2025-02-23 114043](https://github.com/user-attachments/assets/1096ccb8-2919-48e9-a09a-ee9efa131031)
+
 
 ### Message Decryption
-![Message Decryption](Screenshot-4.png)
+![Screenshot 2025-02-23 114056](https://github.com/user-attachments/assets/0dc5eb3c-dfe5-4692-97ab-81f4486f5fe1)
+
 
 ## Future Scope
 - Support for multiple file formats (audio, video, etc.).
