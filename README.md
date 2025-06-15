@@ -38,10 +38,6 @@ This project implements **image steganography** using Python, allowing users to 
 ## Screenshots
 Here are some screenshots of the application in action:
 
-### Image CODE
-![Screenshot 2025-02-23 113546_Screenshot 2025-02-23 113555_Screenshot 2025-02-23 113603_Screenshot 2025-02-23 113613](https://github.com/user-attachments/assets/c610674d-ac9a-4441-a907-d423484a6da3)
-
-
 ### Message Encryption
 ![Screenshot 2025-02-23 113956](https://github.com/user-attachments/assets/76a83bba-a336-4d30-988b-5ee8b53818d3)
 
