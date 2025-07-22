@@ -17,7 +17,7 @@ This project implements **image steganography** using Python, allowing users to 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ScriptAnant/STEGANOGRAPHY.git
+   git clone https://github.com/sh4dowkey/STEGANOGRAPHY.git
    cd STEGANOGRAPHY
    ```
 2. Install dependencies:
@@ -40,6 +40,8 @@ Here are some screenshots of the application in action:
 
 ### Message Encryption
 ![Screenshot 2025-02-23 113956](https://github.com/user-attachments/assets/76a83bba-a336-4d30-988b-5ee8b53818d3)
+<img src="https://github.com/user-attachments/assets/76a83bba-a336-4d30-988b-5ee8b53818d3" width="400">
+
 
 
 ### Encrypted Image
