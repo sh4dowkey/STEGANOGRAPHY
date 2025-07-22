@@ -39,17 +39,18 @@ This project implements **image steganography** using Python, allowing users to 
 Here are some screenshots of the application in action:
 
 ### Message Encryption
-![Screenshot 2025-02-23 113956](https://github.com/user-attachments/assets/76a83bba-a336-4d30-988b-5ee8b53818d3)
 <img src="https://github.com/user-attachments/assets/76a83bba-a336-4d30-988b-5ee8b53818d3" width="400">
 
 
 
 ### Encrypted Image
 ![Screenshot 2025-02-23 114043](https://github.com/user-attachments/assets/1096ccb8-2919-48e9-a09a-ee9efa131031)
+<img src="https://github.com/user-attachments/assets/1096ccb8-2919-48e9-a09a-ee9efa131031" width="400">
 
 
 ### Message Decryption
 ![Screenshot 2025-02-23 114056](https://github.com/user-attachments/assets/0dc5eb3c-dfe5-4692-97ab-81f4486f5fe1)
+<img src="https://github.com/user-attachments/assets/0dc5eb3c-dfe5-4692-97ab-81f4486f5fe1" width="400">
 
 
 ## Future Scope
