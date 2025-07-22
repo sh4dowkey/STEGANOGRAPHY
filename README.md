@@ -46,13 +46,14 @@ Here are some screenshots of the application in action:
 
 
 ### Encrypted Image
-![Screenshot 2025-02-23 114043](https://github.com/user-attachments/assets/1096ccb8-2919-48e9-a09a-ee9efa131031)
-<img src="https://github.com/user-attachments/assets/1096ccb8-2919-48e9-a09a-ee9efa131031" width="400">
-
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/1096ccb8-2919-48e9-a09a-ee9efa131031" width="400">
+</p>
 
 ### Message Decryption
-![Screenshot 2025-02-23 114056](https://github.com/user-attachments/assets/0dc5eb3c-dfe5-4692-97ab-81f4486f5fe1)
-<img src="https://github.com/user-attachments/assets/0dc5eb3c-dfe5-4692-97ab-81f4486f5fe1" width="400">
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/0dc5eb3c-dfe5-4692-97ab-81f4486f5fe1" width="400">
+</p>
 
 
 ## Future Scope
