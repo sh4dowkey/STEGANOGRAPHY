@@ -70,5 +70,5 @@ This project is licensed under the MIT License.
 
 ## Author
 ANANT PANDEY 
-GitHub: [Your GitHub Link](https://github.com/ScriptAnant)
+GitHub: [Link](https://github.com/sh4dowkey)
 
