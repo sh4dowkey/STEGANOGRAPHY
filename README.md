@@ -69,6 +69,6 @@ Contributions are welcome! Feel free to fork this repo and submit pull requests.
 This project is licensed under the MIT License.
 
 ## Author
-ANANT PANDEY 
+Crafted with ❤️ by sh4dowkey
 GitHub: [Link](https://github.com/sh4dowkey)
 
