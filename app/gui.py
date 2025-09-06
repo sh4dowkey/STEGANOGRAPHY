@@ -211,7 +211,7 @@ class SteganographyApp(TkinterDnD.Tk):
             self._update_status(f"Failed to load image: {e}", "danger")
 
     def _select_handler(self, is_encrypt=True):
-        path = filedialog.askopenfilename(filetypes=[("Image Files", "*.png;*.bmp;*.jpg,*.jpeg")])
+        path = filedialog.askopenfilename(filetypes=[("Image Files", "*.png;*.bmp;*.jpg;*.jpeg")])
         if path: self._load_image(path, is_encrypt)
 
     def encrypt_and_save(self):
