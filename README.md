@@ -11,6 +11,8 @@
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg?style=for-the-badge)
 
 </div>
+
+
 ---
 
 ## 🚀 Key Features
@@ -31,10 +33,7 @@
 
 | Overall | Encrypt Tab | Decrypt Tab (with Result) |
 | :---: | :---: | :---: |
-| <img width="2401" height="1548" alt="Screenshot 2025-09-07 025652" src="https://github.com/user-attachments/assets/f1967386-82d1-4150-aed8-9dfc8a4a9a07" />
- | <img width="2404" height="1550" alt="Screenshot 2025-09-07 025839" src="https://github.com/user-attachments/assets/1b977e07-3211-43f7-a08e-786a3d820343" />
- |<img width="2405" height="1559" alt="Screenshot 2025-09-07 025904" src="https://github.com/user-attachments/assets/d52ca622-28b5-43e3-b4b3-9bab28d583d6" />
- |
+| <img width="2401" height="1548" alt="Screenshot 2025-09-07 025652" src="https://github.com/user-attachments/assets/f1967386-82d1-4150-aed8-9dfc8a4a9a07" /> | <img width="2404" height="1550" alt="Screenshot 2025-09-07 025839" src="https://github.com/user-attachments/assets/1b977e07-3211-43f7-a08e-786a3d820343" /> |<img width="2405" height="1559" alt="Screenshot 2025-09-07 025904" src="https://github.com/user-attachments/assets/d52ca622-28b5-43e3-b4b3-9bab28d583d6" /> |
 
 ---
 
