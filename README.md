@@ -1,96 +1,98 @@
-# Secure Image Steganography Suite
+# 🛡️ Secure Image Steganography
 
-A robust, feature-rich desktop application for hiding secret messages within images using advanced steganography and strong AES-256 encryption. This tool provides a secure and intuitive way to protect your private communications.
+**A Python-based desktop application to securely hide password-protected messages inside images using steganography.**
 
----
-
-## Key Features
-
-* **Strong Encryption:** Messages are secured with **AES-256 encryption** before being hidden. A key is derived from your password using **PBKDF2 with 100,000 iterations** to protect against brute-force attacks.
-* **LSB Steganography:** Uses the Least Significant Bit (LSB) technique to embed data invisibly within the image pixels without any noticeable change in quality.
-* **Modern & Intuitive GUI:** A clean, professional user interface built with a dark theme, featuring a balanced two-column layout and large, clear navigation tabs.
-* **Drag & Drop:** Easily load images by dragging them from your file explorer directly into the application window.
-* **Live Message Size Indicator:** The UI shows you the maximum data capacity of your chosen image and tracks your message size in real-time.
-* **High Performance:** The decoding algorithm is highly optimized to quickly check even large, high-resolution images for hidden messages.
-* **Cross-Platform:** Built with standard libraries to run on Windows, macOS, and Linux.
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey.svg)
 
 ---
 
-## Screenshots
+## Overview
 
-*(You can add your own screenshots here to show off the final design)*
+This project provides a user-friendly tool for image steganography, allowing you to embed secret messages within images without noticeable changes. To ensure the confidentiality of your hidden data, all messages are encrypted and can only be decrypted with the correct password.
 
-| Encrypt Tab | Decrypt Tab (with Result) |
-| :---: | :---: |
-| ** | ** |
+## 🚀 Key Features
 
----
-
-## Technologies Used
-
-* **Language:** Python
-* **GUI:** Tkinter, ttkbootstrap, tkinterdnd2
-* **Core Logic:** OpenCV, NumPy
-* **Encryption:** Cryptography
+* **Password-Protected Encryption**: Ensures only authorized users can decode hidden messages.
+* **User-Friendly GUI**: A clean and simple graphical interface built with Tkinter for easy interaction.
+* **Lightweight & Efficient**: Uses OpenCV and Pillow (PIL) for optimized and fast image processing.
+* **Secure Data Hiding**: Messages are embedded into the least significant bits of image pixels, making them visually undetectable.
 
 ---
 
-## Installation & Setup
+## 💻 Technologies Used
 
-To run this application on your local machine, follow these steps:
-
-1.  **Clone or Download the Repository**
-    ```bash
-    # If you are using Git
-    git clone [https://your-repo-url.git](https://your-repo-url.git)
-    cd STEGANOGRAPHY
-    ```
-    Or, simply ensure all the project files are in a folder named `STEGANOGRAPHY`.
-
-2.  **Create a Python Virtual Environment**
-    It's highly recommended to use a virtual environment to manage project dependencies.
-    ```bash
-    # Create the environment
-    python -m venv venv
-
-    # Activate the environment
-    # On Windows:
-    .\venv\Scripts\activate
-    # On macOS/Linux:
-    source venv/bin/activate
-    ```
-
-3.  **Install the Required Libraries**
-    All dependencies are listed in the `requirements.txt` file.
-    ```bash
-    pip install -r requirements.txt
-    ```
+* **Programming Language**: Python
+* **Libraries**:
+    * OpenCV
+    * Tkinter
+    * Pillow (PIL)
 
 ---
 
-## How to Use
+## ⚙️ Installation & Usage
 
-1.  **Launch the Application**
-    Make sure your virtual environment is activated, then run the `main.py` file:
-    ```bash
-    python main.py
-    ```
+### Prerequisites
 
-2.  **To Encrypt:**
-    * Select the **Encrypt** tab.
-    * Drag & drop an image or use the "Open Image" button.
-    * Type your secret message in the text area.
-    * Enter a strong password.
-    * Click "Encrypt & Save Image" and choose a location to save your new image (as a `.png` file).
+* Python 3.x
+* `pip` (Python package installer)
 
-3.  **To Decrypt:**
-    * Select the **Decrypt** tab.
-    * Load the encrypted `.png` image.
-    * Enter the correct password.
-    * Click "Decrypt & Reveal". The hidden message will appear in the text area below.
+### 1. Set Up the Project
+
+First, clone the repository to your local machine:
+```bash
+git clone https://github.com/sh4dowkey/STEGANOGRAPHY.git
+cd STEGANOGRAPHY
+```
+
+### 2. Install Dependencies
+
+Install the required Python libraries using pip:
+
+```bash
+pip install opencv-python pillow
+```
+
+### 3. Run the Application
+
+Execute the main script to launch the GUI:
+
+```bash
+python steganography.py
+```
 
 ---
 
-## Project Structure
+## Application in Action
 
-The code is organized into a clean, modular structure for better maintainability:
+| Message Encryption | Encrypted Image Preview | Message Decryption |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/76a83bba-a336-4d30-988b-5ee8b53818d3" width="300"> | <img src="https://github.com/user-attachments/assets/1096ccb8-2919-48e9-a09a-ee9efa131031" width="300"> | <img src="https://github.com/user-attachments/assets/0dc5eb3c-dfe5-4692-97ab-81f4486f5fe1" width="300"> |
+
+---
+
+## Future Scope
+
+Potential future enhancements for this project include:
+
+  * Support for hiding data in other file formats (audio, video).
+  * Integration of more advanced encryption techniques.
+  * Development of a cloud-based version for secure online communications.
+  * Creation of a mobile application.
+
+---
+
+## Contributing
+
+Contributions are always welcome! Feel free to fork this repository, make your changes, and submit a pull request.
+
+## License
+
+This project is licensed under the **MIT License**.
+
+## Author
+
+Crafted with ❤️ by **sh4dowkey**
+
+* **GitHub**: [https://github.com/sh4dowkey](https://github.com/sh4dowkey)
