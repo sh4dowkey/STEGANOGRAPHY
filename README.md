@@ -1,100 +1,106 @@
 <div align="center">
 
-# 🛡️ Secure Image Steganography
+# 🛡️ Secure Image Steganography Suite
 
-**A Python-based desktop application to securely hide password-protected messages inside images using steganography.**
+**A robust, feature-rich desktop application for hiding secret messages within images using advanced steganography and strong AES-256 encryption.**
 
 </div>
 
-![Python](https://img.shields.io/badge/python-3.7+-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey.svg)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg?style=for-the-badge&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg?style=for-the-badge)
 
 ---
-
-## Overview
-
-This project provides a user-friendly tool for **image steganography**, allowing you to embed secret messages within images without any noticeable changes to the picture. To ensure the confidentiality of your hidden data, all messages are **encrypted** and can only be decrypted with the correct password, making it a secure way to share information.
 
 ## 🚀 Key Features
 
-* **🔒 Password-Protected Encryption**: Ensures that only authorized users with the correct password can decode the hidden messages.
-* **🎨 Intuitive GUI**: A clean and simple graphical interface built with Tkinter for effortless interaction.
-* **⚡ Lightweight & Efficient**: Uses industry-standard libraries like OpenCV and Pillow (PIL) for optimized and fast image processing.
-* **👁️‍🗨️ Undetectable Hiding**: Messages are embedded securely into image pixels, making them visually undetectable.
+* **🔒 Strong Encryption** — Messages are secured with **AES-256 encryption** before being hidden. Passwords are processed using **PBKDF2 with 100,000 iterations** to resist brute-force attacks.  
+* **🖼️ LSB Steganography** — Uses the Least Significant Bit (LSB) technique to invisibly embed data within image pixels.  
+* **🎨 Modern GUI** — Built with Tkinter + ttkbootstrap, offering a sleek dark theme and two-column layout.  
+* **📂 Drag & Drop** — Load images easily by dragging them into the application.  
+* **📊 Real-Time Size Indicator** — Displays maximum capacity and live message size feedback.  
+* **⚡ Optimized Performance** — Fast decoding even on large, high-resolution images.  
+* **🌍 Cross-Platform** — Runs smoothly on Windows, macOS, and Linux.  
 
 ---
 
-## Application Showcase
+## 📸 Showcase
 
-Here is the application in action, from encrypting a message to successfully decrypting it.
+*(Replace placeholders with actual screenshots)*
 
-| 1. Message Encryption | 2. Encrypted Image Preview | 3. Message Decryption |
-| :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/76a83bba-a336-4d30-988b-5ee8b53818d3" alt="Message Encryption" width="300"> | <img src="https://github.com/user-attachments/assets/1096ccb8-2919-48e9-a09a-ee9efa131031" alt="Encrypted Image" width="300"> | <img src="https://github.com/user-attachments/assets/0dc5eb3c-dfe5-4692-97ab-81f4486f5fe1" alt="Message Decryption" width="300"> |
+| Encrypt Tab | Decrypt Tab (with Result) |
+| :---: | :---: |
+| *(Screenshot of Encrypt Tab)* | *(Screenshot of Decrypt Tab)* |
 
 ---
 
 ## 💻 Technologies Used
 
-* **Language**: Python
-* **Libraries**:
-    * OpenCV
-    * Tkinter
-    * Pillow (PIL)
+* **Language**: Python  
+* **GUI**: Tkinter, ttkbootstrap, tkinterdnd2  
+* **Core Logic**: OpenCV, NumPy  
+* **Encryption**: Cryptography  
 
 ---
 
-## ⚙️ Installation & Usage
+## ⚙️ Installation & Setup
 
-### Prerequisites
+1. **Clone the Repository**
+    ```bash
+    git clone https://your-repo-url.git
+    cd STEGANOGRAPHY
+    ```
 
-* Python 3.x
-* `pip` (Python package installer)
+2. **Create a Virtual Environment** (recommended)
+    ```bash
+    python -m venv venv
+    # Activate:
+    # Windows:
+    .\venv\Scripts\activate
+    # macOS/Linux:
+    source venv/bin/activate
+    ```
 
-### 1. Set Up the Project
-
-Clone the repository to your local machine:
-```bash
-git clone https://github.com/sh4dowkey/STEGANOGRAPHY.git
-cd STEGANOGRAPHY
-```
-
-### 2. Install Dependencies
-
-Install the required Python libraries using pip:
-```bash
-pip install opencv-python pillow
-```
-
-### 3. Run the Application
-
-Execute the main script to launch the GUI:
-```bash
-python steganography.py
-```
-
-> **Note**: The file name `steganography.py` is based on the usage instructions. If your file is named differently (e.g., `code.py`), replace accordingly.
+3. **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ---
 
-## 🎯 How It Works
+## 📖 How to Use
 
-1. **Select an Image** → Choose any image file to hide your message in.  
-2. **Enter Message & Password** → Type your secret message and a secure password.  
-3. **Encrypt & Save** → The application will embed the encrypted message and save the new image as `encryptedImage.jpg`.  
-4. **Decrypt the Message** → Open the `encryptedImage.jpg`, provide the correct password, and decrypt.  
+1. **Launch the App**
+    ```bash
+    python main.py
+    ```
+
+2. **Encrypting**
+    * Open the **Encrypt** tab.  
+    * Drag & drop an image (or browse manually).  
+    * Enter your secret message + password.  
+    * Save the new encrypted image (`.png`).  
+
+3. **Decrypting**
+    * Switch to the **Decrypt** tab.  
+    * Load the encrypted image.  
+    * Enter the correct password.  
+    * Click **Decrypt & Reveal** to see the hidden message.  
 
 ---
 
-## Future Scope
+## 📂 Project Structure
 
-Potential future enhancements for this project include:
-
-* Support for hiding data in other file formats (e.g., audio, video).
-* Integration of more advanced encryption techniques for even stronger security.
-* A cloud-based version for secure online communications.
-* Development of a mobile application.
+```plaintext
+STEGANOGRAPHY/
+├── main.py             # Entry point to run the application
+├── requirements.txt    # Dependencies
+│
+└── app/
+    ├── __init__.py     # Package initializer
+    ├── core.py         # Core encryption & steganography logic
+    └── gui.py          # Tkinter GUI code
+```
 
 ---
 
